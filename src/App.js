@@ -53,7 +53,7 @@ function App() {
           <th>Sunday</th>
         </tr>
         <tr>
-        <td>Breakfast</td>
+        <td className="meal-title">Breakfast</td>
           <td>Bfast1</td>
           <td>Bfast2</td>
           <td>Bfast3</td>
@@ -63,7 +63,7 @@ function App() {
           <td>Bfast7</td>
         </tr>
         <tr>
-        <td>Snack</td>
+        <td className="meal-title">Snack</td>
           <td>Snk1</td>
           <td>Snk2</td>
           <td>Snk3</td>
@@ -73,7 +73,7 @@ function App() {
           <td>Snk7</td>
         </tr>
         <tr>
-          <td>Lunch</td>
+          <td className="meal-title">Lunch</td>
           <td>lnch1</td>
           <td>lnch2</td>          
           <td>lnch3</td>
@@ -83,7 +83,7 @@ function App() {
           <td>lnch7</td>
         </tr>
         <tr>
-          <td>Supper</td>
+          <td className="meal-title">Supper</td>
           <td>spr1</td>          
           <td>spr2</td>
           <td>spr3</td>
