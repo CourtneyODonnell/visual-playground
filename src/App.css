@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-around;
+  height: 50px;
+  background-color: #FE7F2D;
+  color: #619B8A;
+  transition: background-color 2s ease-out 100ms;
+}
+.header:hover{
+  background-color: #619B8A;
+  color: #FE7F2D;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 15%;
+  background-color: #233D4D;
+  color: #FCCA46;
+  transition: background-color 2s ease-out 100ms;
+}
+.sidebar:hover {
+  background-color: #3578a1;
+  
+}
+.sidebar-text {
+  margin: 5px;
+}
+
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  background-color: #bada9b;
+  transition: background-color 2s ease-out 100ms;
+}
+.mainpage:hover {
+  background-color: #bad69f;
+}
+
+.sidebar-text:hover {
+  color: #A1C181;
+}
+/*
+dark teal 233D4D
+orange FE7F2D
+yellow FCCA46
+green A1C181
+medium teal 619B8A
+*/
