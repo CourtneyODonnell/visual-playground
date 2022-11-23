@@ -24,21 +24,21 @@ function App() {
         </div>
       </div> 
 
-      <section>
+      <section className="sign-up">
         <h1>Sign-up</h1>
   
       </section>
 
-      <section>
+      <section className="sign-in">
         <h1>Sign-in</h1>
       </section>
 
-      <section>
+      <section className="logged-in-view">
         <h1>User logged in view to replace log-in sign-up once user is signed-in</h1>
         <p>Welcome Back, Username!</p>
       </section>
 
-      <section>
+      <section className="menu-table">
         <h1>Menu - full Table</h1>
           <p>Table with all recipes</p>
           <table>
@@ -95,25 +95,56 @@ function App() {
       </table>
       </section>
 
-      <section>
+      <section className="groc-list">
         <h1>Grocery List</h1>
+          <>
+          <br />
+          <br />
+          </>
 
       </section>
-      <section>
+      <section className="pop-up-prompt">
         <h1>Grocery List pop-up prompt upon 'save' to text user custom list</h1>
+          <>
+            <br />
+            <br />
+          </>
       </section>
+      <section className="settings-page">
         <h1>Settings - account and dietary settings</h1>
 
-      <section>
-        <h1>next component</h1>
+          <>
+            <br />
+            <br />
+          </>
       </section>
 
-      <section>
+      <section className="next-comp0">
         <h1>next component</h1>
+
+        <>
+            <br />
+            <br />
+          </>
+
       </section>
 
-      <section>
+      <section className="next-comp1">
         <h1>next component</h1>
+
+        <>
+            <br />
+            <br />
+          </>
+
+      </section>
+
+      <section className="next-comp2">
+        <h1>next component</h1>
+        <>
+            <br />
+            <br />
+          </>
       </section>
 
     </>
