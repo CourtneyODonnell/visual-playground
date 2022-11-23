@@ -26,24 +26,6 @@ medium teal 619B8A
   color: #FE7F2D;
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 400px;
-  width: 15%;
-  background-color: #233d4de1;
-  color: #fccb46ba;
-  transition: background-color 2s ease-out 100ms;
-}
-.sidebar:hover {
-  background-color: #233D4D;
-  color:#FCCA46
-  
-}
-.sidebar-text {
-  margin: 5px;
-}
 
 .mainpage {
   display: flex;
@@ -169,6 +151,35 @@ td {
   background-color: #FE7F2D;
   color:#233D4D;
   padding: 1em
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif
+}
+
+.sidebar {
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 15%;
+    background-color: #233d4de1;
+    color: #fccb46ba;
+    transition: background-color 2s ease-out 100ms;
+      &:hover {
+        background-color: #233D4D;
+        color:#FCCA46
+      }
 }
 
 /*
