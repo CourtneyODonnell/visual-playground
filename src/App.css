@@ -1,3 +1,11 @@
+/*
+dark teal 233D4D
+orange FE7F2D
+yellow FCCA46
+green A1C181
+medium teal 619B8A
+*/
+
 .App {
   display: flex;
   flex-direction: row;
@@ -52,6 +60,22 @@
 .sidebar-text:hover {
   color: #A1C181;
 }
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
+
+
 /*
 dark teal 233D4D
 orange FE7F2D

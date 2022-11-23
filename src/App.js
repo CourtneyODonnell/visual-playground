@@ -40,7 +40,59 @@ function App() {
 
       <section>
         <h1>Menu - full Table</h1>
-
+          <p>Table with all recipes</p>
+          <table>
+        <tr>
+          <th>{ /* empty on purpose - DAYS ROW */ } </th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+        <tr>
+        <td>Breakfast</td>
+          <td>Bfast1</td>
+          <td>Bfast2</td>
+          <td>Bfast3</td>
+          <td>Bfast4</td>
+          <td>Bfast5</td>
+          <td>Bfast6</td>
+          <td>Bfast7</td>
+        </tr>
+        <tr>
+        <td>Snack</td>
+          <td>Snk1</td>
+          <td>Snk2</td>
+          <td>Snk3</td>
+          <td>Snk4</td>
+          <td>Snk5</td>
+          <td>Snk6</td>
+          <td>Snk7</td>
+        </tr>
+        <tr>
+          <td>Lunch</td>
+          <td>lnch1</td>
+          <td>lnch2</td>          
+          <td>lnch3</td>
+          <td>lnch4</td>
+          <td>lnch5</td>
+          <td>lnch6</td>
+          <td>lnch7</td>
+        </tr>
+        <tr>
+          <td>Supper</td>
+          <td>spr1</td>          
+          <td>spr2</td>
+          <td>spr3</td>
+          <td>spr4</td>
+          <td>spr5</td>
+          <td>spr6</td>
+          <td>spr7</td>
+        </tr>
+      </table>
       </section>
 
       <section>
