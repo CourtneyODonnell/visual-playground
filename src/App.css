@@ -16,8 +16,8 @@ medium teal 619B8A
   flex-direction: row nowrap;
   justify-content: space-around;
   height: 50px;
-  background-color: #FE7F2D;
-  color: #619B8A;
+  background-color: #619b8abc; 
+  color: #fe812dba;
   transition: background-color 2s ease-out 100ms;
 }
 .header:hover{
@@ -31,12 +31,13 @@ medium teal 619B8A
   justify-content: center;
   height: 400px;
   width: 15%;
-  background-color: #233D4D;
-  color: #FCCA46;
+  background-color: #233d4de1;
+  color: #fccb46ba;
   transition: background-color 2s ease-out 100ms;
 }
 .sidebar:hover {
-  background-color: #3578a1;
+  background-color: #233D4D;
+  color:#FCCA46
   
 }
 .sidebar-text {
@@ -54,7 +55,7 @@ medium teal 619B8A
   transition: background-color 2s ease-out 100ms;
 }
 .mainpage:hover {
-  background-color: #bad69f;
+  background-color: #bbda9bac;
 }
 
 .sidebar-text:hover {
@@ -62,13 +63,16 @@ medium teal 619B8A
 }
 
 table {
-  border: 2px solid forestgreen;
+  border: 5px solid #619B8A;
   width: 800px;
   height: 200px;
+  background-color: #FCCA46;
+  color: #233D4D;
+  
 }
   
 th {
-  border-bottom: 1px solid black;
+  border-bottom: 5px solid #A1C181;
 }
   
 td {
