@@ -1,5 +1,7 @@
 import './App.scss';
 
+const thumbnail = <img className="photo" src="https://iili.io/H2kPjtt.png" alt="thumbnail" />;
+
 function App() {
 	
   return (
@@ -35,6 +37,7 @@ function App() {
       <section className="logged-in-view">
         <h1>User logged in view to replace log-in sign-up once user is signed-in</h1>
         <p>Welcome Back, Username!</p>
+        <img className="photo" src="https://iili.io/H2kPXAN.png" alt="Screen Shot 2022 11 23 at 7.01.55 PM" border="0" hei></img>
       </section>
 
       <section className="menu-table">
@@ -53,43 +56,130 @@ function App() {
         </tr>
         <tr>
         <td className="meal-title">Breakfast</td>
-          <td>Bfast1</td>
-          <td>Bfast2</td>
-          <td>Bfast3</td>
-          <td>Bfast4</td>
-          <td>Bfast5</td>
-          <td>Bfast6</td>
-          <td>Bfast7</td>
+          <td>
+            <p>Bfast1</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Bfast2</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Bfast3</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Bfast4</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Bfast5</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Bfast6</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Bfast7</p>
+            {thumbnail}
+          </td>
+
         </tr>
         <tr>
         <td className="meal-title">Snack</td>
-          <td>Snk1</td>
-          <td>Snk2</td>
-          <td>Snk3</td>
-          <td>Snk4</td>
-          <td>Snk5</td>
-          <td>Snk6</td>
-          <td>Snk7</td>
+          <td>
+            <p>Snack1</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Snack2</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Snack3</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Snack4</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Snack5</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Snack6</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>Snack7</p>
+            {thumbnail}
+          </td>
+
         </tr>
         <tr>
           <td className="meal-title">Lunch</td>
-          <td>lnch1</td>
-          <td>lnch2</td>          
-          <td>lnch3</td>
-          <td>lnch4</td>
-          <td>lnch5</td>
-          <td>lnch6</td>
-          <td>lnch7</td>
+          <td>
+            <p>lunch1</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>lunch2</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>lunch3</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>lunch4</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>lunch5</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>lunch6</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>lunch7</p>
+            {thumbnail}
+          </td>
+
         </tr>
         <tr>
           <td className="meal-title">Supper</td>
-          <td>spr1</td>          
-          <td>spr2</td>
-          <td>spr3</td>
-          <td>spr4</td>
-          <td>spr5</td>
-          <td>spr6</td>
-          <td>spr7</td>
+          <td>
+            <p>supper1</p>
+            {thumbnail}
+          </td>          
+          <td>
+            <p>supper2</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>supper3</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>supper4</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>supper5</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>supper6</p>
+            {thumbnail}
+          </td>
+          <td>
+            <p>supper7</p>
+            {thumbnail}
+          </td>
         </tr>
       </table>
       </section>
