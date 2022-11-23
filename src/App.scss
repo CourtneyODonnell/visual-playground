@@ -20,10 +20,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: $green;
 
   body {
-    font-family: sans-serif
+    font-family: sans-serif;
   }
 }
 
@@ -36,6 +35,12 @@
   color: $orange;
   padding: 1em;
   padding-top: 2em;
+  transition: all .5s ease-in-out 100ms;
+  h3 {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 
 }
 
@@ -57,7 +62,7 @@
     padding: 1em;
     transition: background-color 5s ease-out 100ms;
     transition: color 5s ease-out 102ms;
-    transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out 100ms;
         &:hover {
           background-color: $dark-teal;
           color: $yellow;
@@ -104,22 +109,38 @@
     color: $dark-teal;
 
     th {
+
       border: 5px solid $medium-teal;
       background-color: $green;
       border-radius: 10%;
       color: $dark-teal;
+      
+      transition: all .5s ease-in-out 100ms;
+        &:hover {
+          transform: scale(1.1);
+          border-radius: 5%;
+        }
     }
       
     td {
       text-align: center;
       color: $yellow;
       background-color: $medium-teal;
+      transition: all .5s ease-in-out 100ms;
+        &:hover {
+          transform: scale(1.1);
+          border-radius: 5%;
+        }
     }
     .meal-title {
       border: 5px solid $medium-teal;
       background-color: $green;
       color: $dark-teal;
       font-weight: bold;
+      transition: all .5s ease-in-out 100ms;
+        &:hover {
+          transform: scale(1.1);
+        }
     }
   }
 }
