@@ -1,5 +1,6 @@
 import './App.scss';
 import Header from './components/Header';
+import MainPage from './components/MainPage';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import MenuFull from './components/menu/MenuFull';
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <MainPage />
       <SignUp />
       <SignIn />
       <LoggedIn />
