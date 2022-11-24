@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900");
 
+@import url("https://use.typekit.net/tlc0nvs.css");
+
+
 @import "styles/variables.scss";
 @import "styles/reset.scss";
+@import "styles/animations.scss";
 
 @import "styles/typography.scss";
 // VARIABLES:
@@ -28,6 +32,9 @@
 }
 
 .header {
+  font-family: confiteria-script,sans-serif;
+  font-weight: 900;
+  font-style: normal;
   display: flex;
   flex-direction: row nowrap;
   justify-content: space-around;
@@ -36,13 +43,17 @@
   color: $orange;
   padding: 1em;
   padding-top: 2em;
-  transition: all .5s ease-in-out 100ms;
-  h3 {
-    &:hover {
-      transform: scale(1.1);
+  transition: all .8s ease-in-out 600ms;
+    .child {
+      align-self: flex-end;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      transform-origin: bottom;
     }
-  }
-
+    .bounce:hover {
+      animation-name: bounce;
+      animation-timing-function: ease;
+    }
 }
 
 .sidebar {
@@ -78,7 +89,7 @@
   display: flex;
   flex-direction: column;
   height: 400px;
-  width: 85%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   background-color: $green;
@@ -185,24 +196,32 @@
   align-content: center;  
   background-color: $orange;
   color: $yellow;
-  
-    .sidebar-text {
-      background-color: $yellow;
-      color: $dark-teal;
-      font-weight: 900;
-      border-radius: 50%;
-      padding: 1em;
-      transition: background-color 5s ease-out 100ms;
-      transition: color 5s ease-out 102ms;
-      transition: all .5s ease-in-out 100ms;
-          &:hover {
-            background-color: $dark-teal;
-            color: $yellow;
-            transform: scale(1.1);
-            border-radius: 40%;
-          }
-        }
-    }
+  // .header {
+  //   font-family: confiteria-script,sans-serif;
+  //   font-weight: 900;
+  //   font-style: normal;
+  //   display: flex;
+  //   flex-direction: row nowrap;
+  //   justify-content: space-around;
+  //   height: 50px;
+  //   background-color: $dark-teal; 
+  //   color: $orange;
+  //   padding: 1em;
+  //   padding-top: 2em;
+  //   transition: all .8s ease-in-out 600ms;
+  //     .child {
+  //       align-self: flex-end;
+  //       animation-duration: 2s;
+  //       animation-iteration-count: infinite;
+  //       transform-origin: bottom;
+  //     }
+  //     .bounce:hover {
+  //       animation-name: bounce;
+  //       animation-timing-function: ease;
+  //     }
+  // }
+      
+}
   
 
 .photo {
@@ -224,7 +243,7 @@
   .photo {
     height: 100px;
     width: 100px; 
-}
+  }
 }
 
 .settings-page {
